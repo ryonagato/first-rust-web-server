@@ -2,7 +2,7 @@
 name = "first-rust-web-server"
 version = "0.1.0"
 edition = "2021"
-description = "{{project-description}}"
+description = "first-rust-web-server"
 repository = "https://github.com/ryonagato/first-rust-web-server"
 license = "MIT OR Apache-2.0"
 

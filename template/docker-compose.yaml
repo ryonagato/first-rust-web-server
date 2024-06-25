@@ -1,0 +1,11 @@
+services:
+  first-rust-web-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: first-rust-web-server
+    ports:
+      - "8081:8081"
+    volumes:
+      - .:/app:Z
+    command: cargo watch -q -x "run"
